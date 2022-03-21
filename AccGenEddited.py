@@ -3,7 +3,7 @@ saveMethod = "nuvem" # <<-- file para interno OU nuvem para na nuvem
 jsonName = "Acc01" # < -- Nome do arquivo para salvar as contas
 #### Levemente modificado por LordRaposo ####
 # nao compartilheee #
-
+import json
 import requests, random, string, secmail, pyshorteners, aminofix, names
 from bs4 import BeautifulSoup
 from time import sleep
